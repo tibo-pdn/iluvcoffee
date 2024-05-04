@@ -30,6 +30,17 @@ This is the repository of the Official NestJS Fundamentals Course - ILuvCoffee
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Configuration
+
+For the purpose of this course, we will be using the following tools:
+- [MacOS](https://www.apple.com/macos/sonoma/): Sonoma 14.4.1
+- [NodeJS](https://nodejs.org/en): v21.7.1
+- [NestJS](https://nestjs.com/): v10.2.1
+- [Webstorm](https://www.jetbrains.com/webstorm/): v17.0.10
+- [Insomnia](https://insomnia.rest/): v9.1.0
+
+[//]: # (Put here the global configuration (macOS, WebStorm, etc.)
+
 ## Installation
 
 ```bash
@@ -70,7 +81,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Here is the list of all the commands used in the course:
 
-### NestJS CLI
+### 01. Setting up NestJS CLI
 
 ```bash
 # Checking NodeJS version
@@ -94,6 +105,8 @@ nest --version
 nest --help
 ```
 
+### 02. Creating Nest Application
+
 ```bash
 # Creating a new NestJS project
 nest new
@@ -111,7 +124,7 @@ cd iluvcoffee
 npm run start
 ```
 
-### Configuring Git
+### 03. Configuring Git
 
 ```bash
 # Checking Git version
@@ -142,6 +155,8 @@ gh auth login
 # output > ✓ Logged in as your_github_username
 ```
 
+### 04. Creating a remote GitHub Repository
+
 ```bash
 # Creating a new GitHub repository
 gh repo create
@@ -157,7 +172,28 @@ gh repo create
 # output: ✓ Added remote git@github.com:your_github_username/iluvcoffee.git
 ```
 
-### Running the project in development mode
+```bash
+# Switching to the main branch
+git checkout -b main
+# output > On branch main
+```
+
+```bash
+# Adding all the changes
+git add .
+```
+
+```bash
+# Committing the changes
+git commit -m "config(repo): add repo structure and Git initialization"
+```
+
+```bash
+# Pushing the main branch to GitHub
+git push origin main
+```
+
+### 05. Running the project in development mode
 
 ```bash
 # Running the project in development mode - allow hot reload
