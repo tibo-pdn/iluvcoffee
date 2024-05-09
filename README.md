@@ -200,6 +200,13 @@ git push origin main
 npm run start:dev
 ```
 
+### 06. Running the database
+
+```bash
+# Running the project in Docker
+docker compose up -d
+```
+
 ## License
 
 Nest is [MIT licensed](LICENSE).
