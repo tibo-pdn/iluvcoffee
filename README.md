@@ -26,6 +26,8 @@
 
 This is the repository of the Official NestJS Fundamentals Course - ILuvCoffee
 
+This repository is only for testing and learning purposes. Nothing is deployed and the access/keys/passwords you can see in the code are not valid.
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
